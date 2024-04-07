@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --font-family: "Poppins", sans-serif;
+    --primary-clr: #5fdfe4;
+    --primary-light-clr: #adfafd;
+    --orange-clr: #ff6955;
+    --text-clr: #505050;
+    --text-dark-clr: #051e44;
+    --bright-clr: #ffffff;
+}
+
+* {
+    font-family: var(--font-family);
+}
+
+.logo {
+    width: 15rem;
+}
+
+.nav-item {
+    margin-inline: .5rem;
+}
+
+.nav-item .nav-link {
+    font-family: var(--font-family);
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    cursor: pointer;
+}
+
+.nav-item .nav-link:hover,
+.nav-item .nav-link.active {
+    border-color: #60dfe6;
+}
+
+/* Search Bar */
+
+#search{
+    padding-block: 4rem;
+    background-color: var(--primary-clr);
+}
+
+.searchbar_container {
+    position: relative;
+    max-width: 60rem;
+    display: flex;
+}
+
+.searchbar {
+    border-radius: 40px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-inline-start: 2rem;
+}
+
+.searchbar_btn {
+    border-radius: 40px;
+    padding-block: .7rem;
+    padding-inline: 1.5rem;
+    text-wrap: nowrap;
+    background: var(--orange-clr);
+    color: var(--bright-clr);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 1.4rem;
+}
