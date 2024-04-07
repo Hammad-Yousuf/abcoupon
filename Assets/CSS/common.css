@@ -4,14 +4,20 @@
     --font-family: "Poppins", sans-serif;
     --primary-clr: #5fdfe4;
     --primary-light-clr: #adfafd;
+    --dark-green-clr: #2e6b6d;
     --orange-clr: #ff6955;
     --text-clr: #505050;
     --text-dark-clr: #051e44;
     --bright-clr: #ffffff;
+    --light-bg-clr: #f8f9fa;
 }
 
 * {
     font-family: var(--font-family);
+}
+
+body{
+    background: var(--light-bg-clr);
 }
 
 .logo {
