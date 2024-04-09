@@ -118,13 +118,14 @@
 }
 
 .deal_card{
-    width: 16rem;
+    width: 14.5rem;
     box-shadow: 15px 15px 15px 2px #eee;
     border-radius: 8px;
     padding: 1rem;
     background: #fff;
     display: grid;
     gap: 2rem;
+    cursor: pointer;
 }
 
 .deal_brand_container{
@@ -142,6 +143,12 @@
     background: var(--primary-light-clr);
     padding: .3rem 1rem;
     border-radius: 18px 0 0 18px;
+    transform-origin: right;
+    transition: transform 250ms ease-in-out;
+}
+
+.deal_card:hover .deal_discount_tag{
+    transform: scaleX(0);
 }
 
 .deal_brand{
@@ -173,6 +180,83 @@
 
 .owl-carousel.owl-theme.desktop_container {
     display: block !important;
+}
+
+/* Newsletter */
+
+#newsletter{
+    background: var(--orange-clr);
+    padding: 4rem;
+}
+
+.text_blue_patch{
+    color: var(--primary-clr);
+}
+
+.subscription_form_container{
+    text-align: center;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+}
+
+.subscription_form{
+    height: 100%;
+    padding: .5rem 1rem;
+    width: 100%;
+    max-width: 25rem;
+    border-color: transparent;
+}
+
+.subscription_btn{
+    border: none !important;
+    height: 100%;
+    background: var(--primary-clr);
+    color: var(--bright-clr);
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+}
+
+footer{
+    background: var(--primary-clr);
+    padding-block: 2rem;
+}
+
+.footer_logo{
+    width: 17rem;
+    filter: brightness(100);
+}
+
+.footer_social_icons{
+    margin-top: 1rem;
+    display: flex;
+    gap: .3rem;
+}
+
+.footer_icon{
+    cursor: pointer;
+    color: var(--bright-clr) !important;
+    font-size: 1.2rem;
+    width: 3rem;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background-color: var(--orange-clr);
+}
+
+.footer_dual_nav{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.footer_nav_title{
+    color: var(--bright-clr);
+}
+.footer_nav .nav-link{
+    color: var(--bright-clr);
 }
 
 @media (max-width: 768px) {
