@@ -166,3 +166,20 @@
 .deal_title{
     font-size: 1rem;
 }
+
+.owl-carousel.owl-theme.mobile_container {
+    display: none !important;
+}
+
+.owl-carousel.owl-theme.desktop_container {
+    display: block !important;
+}
+
+@media (max-width: 768px) {
+    .owl-carousel.owl-theme.mobile_container{
+        display: block !important;
+    }
+    .owl-carousel.owl-theme.desktop_container{
+        display: none !important;
+    }
+}
