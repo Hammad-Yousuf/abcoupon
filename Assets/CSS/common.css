@@ -250,6 +250,11 @@ footer {
     color: var(--text-clr);
 }
 
+.breadcrumb a{
+    text-decoration: none;
+    color: var(--orange-clr);
+}
+
 
 @media (max-width: 768px) {
 

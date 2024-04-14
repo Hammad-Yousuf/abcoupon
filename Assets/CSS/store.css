@@ -187,6 +187,32 @@
 
 }
 
+.categories_container{
+    padding-block: 2rem;
+}
+
+.categories{
+    break-inside: avoid-column;
+    list-style-type: none;
+}
+
+.category_link{
+    text-decoration: none;
+    color: var(--text-clr);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.sub_categories{
+    list-style-type: disc;
+}
+
+.sub_categories .sub_category_link{
+    text-decoration: none;
+    color: var(--text-clr);
+    margin-bottom: 1rem;
+}
+
 @media (max-width: 1000px) {
     .stores_list{
         display: flex;
