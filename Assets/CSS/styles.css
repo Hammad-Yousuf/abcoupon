@@ -2,69 +2,7 @@
     border-radius: 40px;
 }
 
-.section_header{
-    margin-bottom: 4rem;
-}
 
-.light_header .section_head{
-    color: var(--bright-clr);
-    max-width: 35ch;
-    margin-inline: auto;
-    font-size: 3.7rem;
-}
-
-.light_header .section_head_tag{
-    background: var(--dark-green-clr);
-    color: var(--bright-clr);
-
-}
-
-.light_header .section_header_text{
-    max-width: 80ch;
-    color: var(--bright-clr);
-    text-align: center;
-    margin-inline: auto;
-    font-size: 1.2rem;
-}
-.section_head_tag {
-    width: fit-content;
-    margin-inline: auto;
-    background: var(--dark-green-clr);
-    padding: .5rem 1rem !important;
-    color: var(--bright-clr);
-    border-radius: 8px;
-    font-size: 1.2rem;
-
-}
-
-.section_head {
-    color: var(--text-clr);
-    max-width: 35ch;
-    margin-inline: auto;
-    font-size: 3.7rem;
-}
-
-.section_header_text{
-    max-width: 80ch;
-    color: var(--text-clr);
-    text-align: center;
-    margin-inline: auto;
-    font-size: 1.2rem;
-}
-
-.text_patch_orange{
-    color: var(--orange-clr);
-}
-
-.left_header .section_head_tag{
-    margin: 1rem 0;
-    font-size: 1rem;
-}
-
-.left_header .section_head{
-    font-size: 2rem;
-    margin: 0;
-}
 
 /* Stores Section */
 
@@ -274,29 +212,6 @@ footer{
 }
 
 @media (max-width: 768px) {
-
-    .section_head{
-        text-align: center;
-        font-size: 3rem !important;
-    }
-    .footer_logo_container{
-        text-align: center;
-    }
-    .footer_social_icons{
-        justify-content: center;
-        margin-bottom: 1rem;
-    }
-    .footer_nav_title{
-        text-align: center;
-    }
-    .footer_dual_nav{
-        justify-content: center;
-    }
-    .footer_nav{
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-
     .owl-carousel.owl-theme.mobile_container{
         display: block !important;
     }
